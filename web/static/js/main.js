@@ -22,10 +22,8 @@ const playSelectedTrackButton = document.getElementById(
 // API Configuration
 const API_BASE_URL = "http://localhost:8080"; // Your Go backend (serving this frontend and Prowlarr search)
 
-// IMPORTANT: REPLACE THIS PLACEHOLDER with the actual public URL of your deployed EC2 seed server.
-// You get this from your Terraform outputs (e.g., 'http://ec2-xx-xx-xx-xx.compute-1.amazonaws.com:8081').
 const WEBTORRENT_BACKEND_URL =
-  "http://ec2-18-133-221-204.eu-west-2.compute.amazonaws.com:8081";
+  "http://ec2-35-177-162-130.eu-west-2.compute.amazonaws.com:8081";
 
 const SEARCH_ENDPOINT = "/api/v1/search";
 
