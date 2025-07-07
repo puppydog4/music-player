@@ -2,6 +2,11 @@ package model
 
 import "time"
 
+type ProwlarSearchRequest struct {
+	Query      string `json:"query"`
+	Categories []int  `json:"categories,omitempty"`
+}
+
 type ProwlarrCategory struct {
 	ID            int                `json:"id"`
 	Name          string             `json:"name"`
